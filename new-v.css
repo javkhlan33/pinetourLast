@@ -1,0 +1,548 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Container {
+  width: 1440px;
+  margin-inline: auto;
+}
+#hero {
+  background-image: url(image/HeroImage.png);
+  height: 773px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  position: fixed;
+  width: 1440px;
+  top: 0px;
+}
+.logo {
+  width: 100px;
+  height: 34px;
+}
+.userIcon {
+  width: 20px;
+  height: 20px;
+}
+.navcontainer {
+  display: flex;
+  gap: 24px;
+}
+.navtext {
+  color: white;
+  width: 100px;
+  font-family: "inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.languageChanger {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: "inter", sans-serif;
+}
+.textContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-inline: auto;
+  margin-top: 169px;
+  height: 394px;
+
+  color: white;
+}
+.textOne {
+  height: 80px;
+  font-size: 80px;
+  font-weight: 400;
+  font-family: "Bebas neue", sans-serif;
+  margin: 0px;
+  opacity: 0.7;
+}
+.textTwo {
+  height: 250px;
+  font-size: 250px;
+  font-weight: 600;
+  font-family: "Bebas neue", sans-serif;
+  margin: 0px;
+}
+.textThree {
+  height: 64px;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: "Bebas neue", sans-serif;
+  margin: 0px;
+  opacity: 0.7;
+}
+#Location {
+  background-image: url(image/Location\ image.png);
+  width: 1440px;
+  height: 512px;
+  margin: auto;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.cardTerkh {
+  background-image: url(image/1.png);
+}
+.cartImage {
+  width: 275.49px;
+  height: 370px;
+  background-size: cover;
+  border-radius: 10%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -8px -8px #29728B40 , 8px 8px #1F72AA75 ;
+}
+.cartImage:hover {
+  filter: brightness(0.7);
+}
+.cardAmar {
+  background-image: url(image/2.png);
+}
+.cardKhuvsgul {
+  background-image: url(image/3.png);
+}
+.cardKhorgo {
+  background-image: url(image/4.png);
+}
+.cardText {
+  font-size: 37px;
+  font-weight: 700;
+  font-family: "Bebas neue", sans-serif;
+}
+.roadMapContainer {
+  height: 1022px;
+  width: 1440px;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(image/Roadmap\ image.png);
+}
+.mapImage {
+  width: 1440px;
+  height: 902px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.mapHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  margin: 0px;
+  row-gap: 10px;
+}
+.mapText1 {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  margin: 0px;
+}
+.mapText2 {
+  color: #18181b;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0px;
+  opacity: 80%;
+}
+.frame1 {
+  display: flex;
+  width: 1200px;
+  height: 640px;
+  margin-top: 118px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.framegap {
+  display: flex;
+  gap: 80px;
+}
+.leftCon {
+  width: 513px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.leftContainer {
+  width: 513px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  justify-content: space-between;
+  padding-inline: 30px;
+}
+.leftback1 {
+  background-color: #eee9d9;
+  opacity: 0.8;
+}
+.leftback2 {
+  background-color: #8bb8c1;
+opacity: 0.8;
+}
+.leftback3 {
+  background-color: #aad8d7;
+opacity: 0.8;
+}
+.leftback4 {
+  background-color: #8bc0bd;
+opacity: 0.8;
+}
+.leftback5 {
+  background-color: #97cce0;
+opacity: 0.8;
+}
+.smallContainer {
+  width: 316px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+}
+.LocationInfo {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0px;
+}
+.dayCon {
+  font-family: "montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0px;
+}
+.Lpin {
+  width: 14px;
+  height: 14px;
+}
+.DAY {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  border: 1px solid white;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.rightCon {
+  width: 647px;
+  height: 600px;
+  margin: 0px;
+  position: relative;
+  
+}
+
+.SukhPin {
+  position: absolute;
+  left: 492px;
+  top: 181px;
+}
+.framepin {
+  width: 34px;
+  height: 34px;
+}
+.sukhee {
+  width: 245px;
+  height: 245px;
+  display:none;
+  position: absolute;
+  left: -100px;
+  top: -70px;
+
+}
+.amarPin {
+  position: absolute;
+  left: 279px;
+  top: 42px;
+
+}
+.amaraa{
+  width: 245px;
+  height: 245px;
+  display: none;
+  position: absolute;
+  left: -50px;
+  top: -100px;
+}
+
+.KhorgoPin {
+  position: absolute;
+  left: 107px;
+  top: 164px;
+}
+.horgo{
+  width: 245px;
+  height: 245px;
+  display: none;
+  position: absolute;
+  left: -100px;
+  top: -100px;
+}
+.terkhPin {
+ 
+  position: absolute;
+  left: 70px;
+  top: 164px;
+}
+.terh{
+  width: 245px;
+  height: 245px;
+  display: none;
+  position: absolute;
+  left: -70px;
+  top: -100px;
+}
+.KhuvsgulPin {
+  position: absolute;
+  left: 100px;
+  top: -106px;
+}
+.huvsgul{
+  width: 245px;
+  height: 245px;
+  display: none;
+  position: absolute;
+  left: -100px;
+  top: -100px;
+}
+
+  
+
+.bord:hover{
+  border: 3px solid white;
+}
+
+.frame1:has( .leftback1:hover) .sukhee{
+  display: block;
+}
+
+.frame1:has(.leftback2:hover) .amaraa{
+  display: block;
+ 
+}
+.frame1:has(.leftback3:hover) .horgo{
+  display: block;
+
+}
+.frame1:has(.leftback4:hover) .terh{
+  display: block;
+}
+.frame1:has(.leftback5:hover) .huvsgul{
+  display: block;
+}
+.price{
+  background-image:url(image/Price&Footer\ image.png);
+  width: 1440px;
+  height: 1120px;
+}
+.priceTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 85px;
+  ;
+}
+.pt1{
+  font-size: 42px;
+  font-weight: 600;
+  font-family: "Inter",sans-serif;
+  margin: 0px;
+}
+.pt2{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter",sans-serif;
+  margin: 0px;
+  color: #18181B;
+  opacity: 70%;
+}
+.priceCon{
+  display: flex;
+  width: 1200px;
+  height: 527px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 79px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px
+
+
+  ;
+}
+.Pcon1{
+  width: 387px;
+  height: 527px;
+  border-radius: 10%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.package{
+  width: 384px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+.zurh{
+  width: 36px;
+  height: 36px;
+}
+.packageT{
+  font-size: 18px;
+  font-family: "Inter",sans-serif;
+  font-weight: 400;
+}
+.content{
+  width: 384px;
+  height: 435px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.dollar{
+  width: 336px;
+  height: 78px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.une{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "motserrat",sans-serif;
+  margin: 0px;
+}
+.popular{
+  font-size: 16px;
+  font-family: "inter",sans-serif;
+  font-weight: 400;
+  margin: 0px;
+  color: #919191;
+}
+.zuw{
+  width: 10px;
+  height: 10px;
+}
+.select{
+  width: 336px;
+  height: 48px;
+  background-color:#A4D1E2;
+  border-radius: 30px ;
+  display: flex;
+  justify-content: center;
+}
+.sp{
+  font-size: 16px;
+  font-family: "inter",sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+}
+.Pcon1:hover{
+  box-shadow: 10px 10px #A4D1E2, -10px -10px #9FC6DE;
+}
+.Pcon1:hover  .select{
+  background-color: black;
+  color: white;
+}
+.tugsgul{
+  width: 1440;
+  height: 204;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 265px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.social{
+  width: 354px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.face{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 167px;
+  height: 44px;
+  background-color: white;
+  border-radius: 100px;
+}
+.book{
+  width: 24px;
+  height: 24px;
+}
+.facebook{
+  font-size: 18px;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  color: #6972B5;
+}
+.insta{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 167px;
+  height: 44px;
+  background-color: white;
+  border-radius: 100px;
+}
+.gram{
+  width: 24px;
+  height: 24px;
+}
+.instagram{
+  font-size: 18px;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  color: #6972B5;
+}
+.logoshuu{
+  width: 101;
+  height: 35px;
+}
